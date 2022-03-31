@@ -39,7 +39,9 @@ class Hokage extends Ninja {
 }
 
 forthHokage = new Hokage("Minato", "The Yellow Flash", "Konoha", 7000, 2500) 
+forthHokage.powers.specialMoves.push("Rasengan", "Flying Raijin", "Sealing Jutsu")
 sixthHokage = new Hokage("Kakashi", "Copy Ninja", "Konoha", 4000, 5000)
+sixthHokage.powers.specialMoves.push("Sharingan", "Chidori", "Kamui")
 // forthHokage.powers.speed = 500;
 // forthHokage.powers.strength = "Country Level"
 console.log(forthHokage);
